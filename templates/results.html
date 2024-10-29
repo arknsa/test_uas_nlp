@@ -1,0 +1,26 @@
+<!-- templates/results.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results - IntelliSearch</title>
+</head>
+<body>
+    <h1>Search Results for "{{ query }}"</h1>
+    {% if results %}
+        <ul>
+            {% for result in results %}
+                <li>
+                    <h2>{{ result._source.title }} ({{ result._source.year }})</h2>
+                    <p><strong>Authors:</strong> {{ ', '.join(result._source.authors) }}</p>
+                    <p><strong>Abstract:</strong> {{ result._source.abstract }}</p>
+                    <p><strong>Keywords:</strong> {{ ', '.join(result._source.keywords) }}</p>
+                </li>
+                <hr>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No results found for "{{ query }}".</p>
+    {% endif %}
+    <a href="/">Back to Search</a>
+</body>
+</html>

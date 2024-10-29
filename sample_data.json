@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Deep Learning for Natural Language Processing",
+        "authors": ["John Doe", "Jane Smith"],
+        "abstract": "This paper explores deep learning techniques for NLP applications.",
+        "year": 2022,
+        "keywords": ["Deep Learning", "NLP", "Artificial Intelligence"]
+    },
+    {
+        "id": 2,
+        "title": "Advances in Computer Vision",
+        "authors": ["Alice Johnson"],
+        "abstract": "An overview of recent advances in computer vision technologies.",
+        "year": 2021,
+        "keywords": ["Computer Vision", "Image Processing", "Machine Learning"]
+    },
+    {
+        "id": 3,
+        "title": "Quantum Computing: Basics and Applications",
+        "authors": ["Michael Brown"],
+        "abstract": "An introduction to quantum computing and its potential applications.",
+        "year": 2023,
+        "keywords": ["Quantum Computing", "Quantum Mechanics", "Computing"]
+    },
+    {
+        "id": 4,
+        "title": "Ethical Implications of AI",
+        "authors": ["Laura Wilson"],
+        "abstract": "Discusses the ethical considerations in the development of artificial intelligence.",
+        "year": 2022,
+        "keywords": ["Ethics", "Artificial Intelligence", "Policy"]
+    },
+    {
+        "id": 5,
+        "title": "Blockchain Technology in Finance",
+        "authors": ["Robert Miller", "Emily Davis"],
+        "abstract": "Examines the impact of blockchain technology on the financial industry.",
+        "year": 2021,
+        "keywords": ["Blockchain", "Finance", "Cryptocurrency"]
+    }
+]
